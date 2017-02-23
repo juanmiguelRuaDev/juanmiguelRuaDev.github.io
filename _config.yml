@@ -1,16 +1,14 @@
 # Site settings
 title: Lorem Ipsum - Web Developer
 description: "A blog about lorem ipsum ..."
-baseurl: "/space-jekyll-template" # for test: remove string '/space-jekyll-templa' to ''
-url: "http://victorvoid.github.io" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.githu.io'
+baseurl: "" # for test: remove string '/space-jekyll-templa' to ''
+url: "http://juanmiguelrua.com" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.githu.io'
 # User settings
-username: lorem ipsum
-user_title: Lorem Ipsum - FrontEnd
-email: lorem.lorem@ipsum.com
-twitter_username: loremipsum
-github_username:  loremipsum
-gplus_username:  loremipsum
-disqus_username: loremipsum
+username: juanmiguelRua.Dev
+user_title: Software Engineer
+email: me@juanmiguelrua.com
+twitter_username: \@JuanMiguelRua
+github_username:  juanmiguelRuaDev
 
 # Build settings
 markdown: kramdown
@@ -39,9 +37,9 @@ links:
     url: /about
 # projects in header index
 projects:
-  - name: asciilang
-    url: https://github.com/victorvoid/asciilang
-  - name: vim-frontend
+  - name: juanmirua
+    url: https://github.com/juanmiguelRuaDev/juanmiguelRuaDev.github.io
+  - name: personal-web
     url: https://github.com/victorvoid/vim-frontend
   - name: generator-capybara
     url: https://github.com/victorvoid/generator-capybara 
