@@ -12,7 +12,7 @@ categories:
 serie: learn
 ---
 
-<img src="{{ "/assets/img/2017-02-25/mongodb-post.png"}}">
+<img src="{{ "/assets/img/2017-02-25/django-logo-positive.png"}}">
 
 ## Hello Post!
 
