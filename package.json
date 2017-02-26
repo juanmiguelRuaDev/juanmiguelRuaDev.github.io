@@ -1,7 +1,7 @@
 {
-  "name": "victorigortemplate",
+  "name": "juanmiguelruadev",
   "version": "1.0.0",
-  "description": "My jekyll blog template.",
+  "description": "My personal blog",
   "main": "gulpfile.js",
   "scripts": {
     "test": "test"
