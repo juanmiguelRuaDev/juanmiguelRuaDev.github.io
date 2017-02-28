@@ -6,6 +6,7 @@ date:   2016-09-12 00:06:31
 tags:
 - django
 - python
+- snippets
 description: 'This is my firts post: Django snippets'
 categories:
 - Snippets
