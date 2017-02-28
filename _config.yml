@@ -41,5 +41,7 @@ links:
 projects:
   - name: quienlopillara.com (under construction)
     url: http://quienlopillara.com
+  - name: Door state app
+    url: https://github.com/juanmiguelRuaDev/door-states-app
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
