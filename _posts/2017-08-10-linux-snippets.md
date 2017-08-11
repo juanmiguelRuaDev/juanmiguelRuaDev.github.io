@@ -23,11 +23,18 @@ For this reason, I decided to collect all those linux scripts that you knows tha
 
 ### SO information
 
-At this section, there are a serie of useful scripts that might give you information abut your linux distribution. Information such as the SO version, hard drive space, etc.
+In this section, there are a serie of useful scripts that might give you information about your linux distribution. Information such as the SO version, hard drive space, etc.
 
-#### Linux distribution information
+#### LIN-01: Linux distribution information
 ```bash
 
 lsb_release -a
 
 ```
+
+
+#### LIN-02: Find process with `ps` and `grep`
+```
+ps aux | grep <process_name>
+```
+
