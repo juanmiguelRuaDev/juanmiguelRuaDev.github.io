@@ -38,3 +38,7 @@ lsb_release -a
 ps aux | grep <process_name>
 ```
 
+#### LIN-02: Zip and unzip files
+```
+unzip <filename> -d <dir>
+```
