@@ -50,7 +50,7 @@ html, body {
 }
 
 .overlay {
-	background-color: #000;
+	background-color: #151616;
 	opacity: .85;
 	position: absolute;
 	top: 0;
@@ -155,7 +155,7 @@ html, body {
 }
 
 .navbar.main-navbar.bg-dark {
-	background-color: #000 !important;
+	background-color: #151616 !important;
 }
 
 .navbar.main-navbar .navbar-brand {
@@ -237,7 +237,7 @@ html, body {
 
 .navbar.main-navbar .form-inline .btn:hover {
 	background-color: #fff;
-	color: #000;
+	color: #151616;
 	opacity: 1;
 }
 
@@ -302,6 +302,7 @@ html, body {
 	-ms-border-radius: 30px;
 	padding-left: 30px;
 	padding-right: 30px;
+	background-color: #339CD0;
 }
 
 .hero .cta .btn.btn-link {
@@ -336,11 +337,11 @@ section.bg-grey {
 }
 
 section.bg-reverse {
-	background-color: #000;
+	background-color: #151616;
 }
 
 section.bg-overlay {
-	background-color: rgba(0,0,0,0.85);
+	background-color: rgba(21,22,22,0.85);
 }
 
 section.padding {
@@ -384,12 +385,12 @@ section.callout .cta .btn {
 	-ms-border-radius: 0;
 	-moz-border-radius: 0;
 	border-width: 2px;
-	border-color: #000;
-	color: #000;
+	border-color: #151616;
+	color: #151616;
 }
 
 section.callout .cta .btn:hover {
-	background-color: #000;
+	background-color: #151616;
 	color: #fff;
 }
 
@@ -696,7 +697,7 @@ form.contact .btn-primary:hover {
 footer {
 	padding: 80px 0 60px 0;
 	text-align: center;
-	background-color: #000;
+	background-color: #151616;
 	color: #fff;
 }
 
