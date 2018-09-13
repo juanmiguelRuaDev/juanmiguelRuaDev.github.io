@@ -38,7 +38,7 @@ links:
   - title: series
     url: /series
   - title: airpadel_temp1
-    url: /airpadel/temp1
+    url: /airpadeltemp1
 # projects in header index
 projects:
   - name: Door state app
