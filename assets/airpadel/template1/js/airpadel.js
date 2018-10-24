@@ -32,7 +32,7 @@ $(function() {
 		return false;
 	});
 
-	$(window).scroll(function() {
+	$(window).scroll(() => {
 		let $this = $(this);
 		if($this.scrollTop() > $(".hero").outerHeight() - 150) {
 			$(".main-navbar").addClass("bg-dark");

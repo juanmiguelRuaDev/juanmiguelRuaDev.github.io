@@ -1,6 +1,7 @@
 /*reset*/
 html, body {
 	height: 100% !important;
+	font-family: 'Chivo', sans-serif;
 }
 
 .main-loading {
@@ -246,6 +247,7 @@ html, body {
 	height: 100%;
 	color: #fff;
 	position: relative;
+	font-family: 'Comfortaa', sans-serif;
 }
 
 .hero .text {
@@ -564,6 +566,16 @@ article.card .card-more i {
 	width: 100%;
 }
 
+/*projects*/
+.padding-picture {
+	width: 300px;
+	margin: 0 auto;
+}
+
+.padding-picture img {
+	width: 100%;
+}
+
 .projects-details {
 	color: #fff;
 }
@@ -588,6 +600,12 @@ article.card .card-more i {
 	line-height: 28px;
 	margin-top: 20px;
 	color: #999;
+}
+
+.padding-details .padding-description {
+	line-height: 28px;
+	margin-top: 20px;
+	color: rgb(36, 36, 36);
 }
 
 .projects-details .projects-cta {
