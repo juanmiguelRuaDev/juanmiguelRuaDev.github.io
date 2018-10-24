@@ -18,11 +18,14 @@ description: "Primera plantilla de airpadel"
 	<link rel="stylesheet" href="assets/airpadel/template1/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="assets/airpadel/template1/airpadel/dist/airpadel.css">
 	<link rel="stylesheet" href="assets/airpadel/template1/css/airpadel.css">
+	<link rel="stylesheet" href="assets/airpadel/template1/css/airpadel_chart.css">
 	<link href="https://fonts.googleapis.com/css?family=Chivo|Comfortaa|Montserrat|Oxygen" rel="stylesheet">
 	<link rel="icon" type="img/png" href="assets/airpadel/template1/img/favicon.ico">
 </head>
 
 <body>
+
+	<!-- NAVIGATION-->
 	<nav class="navbar navbar-expand-lg main-navbar">
 		<div class="container-fluid">
 			<a class="navbar-brand" href="#">
@@ -57,15 +60,56 @@ description: "Primera plantilla de airpadel"
 			</div>
 		</div>
 	</nav>
-	<!--<section class="hero bg-overlay" id="hero" data-bg="img/background_player_shapes.jpg">-->
+
+	<!--HOME -->
 	<section class="hero bg-overlay" id="hero" data-bg="assets/airpadel/template1/img/background_render_blau.jpg">
 			<div class="text py-5">
 				<p class="lead">Juega sin problemas de grip con </p>
 				<h1> <span class="bold">airpadel</span></h1>
 				<div class="cta">
-					<a href="#features" class="btn btn-primary smooth-link">Quiero saber más</a>
+					<a href="#chart" class="btn btn-primary smooth-link">Quiero saber más</a>
 				</div>
 			</div>
+	</section>
+
+	<!--CHART-->
+	<section class="padding" id="chart">
+		<div class="container">
+			<div class="row align-items-center">
+	
+				<div class="col-12 col-md-6">
+					<div class="chart-wrapper" id="grip-chart"></div>
+				</div>
+	
+	
+				<div class="col-12 col-md-6">
+					<div class="padding-details">
+						
+						<p class="padding-description">
+							Al introducir el mango de tu pala se activan los 9 ventiladores formando un flujo de aire en espiral que envuelve
+							el
+							grip homogéneamente. Una luz azul se encenderá indicando que el proceso de secado airpadel está en marcha.
+						</p>
+						<p class="padding-description">
+							Su asimetría con respecto al suelo garantiza el apoyo correcto y centrado en el interior para asegurar el secado
+							homogéneo por todo el grip.
+						</p>
+						<p class="padding-description">
+							Airpadel es completamente personalizable. Entre una gran variedad de colores podrás escoger tu airpadel que mejor
+							combine con tu equipamiento de juego.
+						</p>
+						<p class="padding-description">
+							Solo es necesario utilizar airpadel durante 90/120 seg. (tiempos reglamentarios entre juegos i sets, en partidos
+							oficiales) para estabilizar la humedad del grip y de la cuerda de fijación.
+						</p>
+						<p class="padding-description">
+							Su batería recargable de Litio garantiza una autonomía ininterrumpida de 2 horas consecutivas.
+						</p>
+					</div>
+				</div>
+	
+			</div>
+		</div>
 	</section>
 
 	<section class="padding" id="features">
@@ -173,6 +217,8 @@ description: "Primera plantilla de airpadel"
 			</div>
 		</div>
 	</section>
+
+	
 
 	<section class="bg-overlay padding" id="project" data-bg="assets/airpadel/template1/img/background_player_shapes.jpg">
 		<div class="container">
@@ -403,6 +449,8 @@ description: "Primera plantilla de airpadel"
 	<script src="assets/airpadel/template1/bootstrap/js/bootstrap.min.js"></script>
 	<script src="assets/airpadel/template1/airpadel/dist/airpadel.min.js"></script>
 	<script src="assets/airpadel/template1/js/airpadel.js"></script>
+	<script src="assets/airpadel/template1/js/d3.v3.min.js"></script>
+	<script src="assets/airpadel/template1/js/chart.js"></script>
 </body>
 
 </html>
