@@ -350,7 +350,8 @@ section.padding {
 	padding: 100px 0;
 }
 
-section#blog {
+section#blog,
+section#about-us {
 	padding-bottom: 70px;
 }
 
@@ -422,7 +423,7 @@ section.callout h3 {
 	-webkit-flex: 0 0 65px;
 	font-size: 45px;
 	line-height: 0;
-	color: #ccc;
+	color: #bbb;
 }
 
 .list-item .desc h2 {
@@ -557,24 +558,21 @@ article.card .card-more i {
 }
 
 /*projects*/
-.projects-picture {
-	width: 250px;
+.projects-picture,
+.padding-picture,
+.about-us-picture {
+	height: 430px;
 	margin: 0 auto;
 }
 
-.projects-picture img {
+.projects-picture img,
+.padding-picture img,
+.about-us-picture img {
 	width: 100%;
 }
 
-/*projects*/
-.padding-picture {
-	width: 300px;
-	margin: 0 auto;
-}
 
-.padding-picture img {
-	width: 100%;
-}
+
 
 .projects-details {
 	color: #fff;
@@ -596,17 +594,25 @@ article.card .card-more i {
 	line-height: 45px;
 }
 
-.projects-details .projects-description {
+.projects-details .projects-description,
+.padding-details .padding-description,
+.about-us-details .about-us-description {
 	line-height: 28px;
 	margin-top: 20px;
+	text-align: justify;
+	
+}
+
+.projects-details .projects-description{
 	color: #999;
 }
 
-.padding-details .padding-description {
-	line-height: 28px;
-	margin-top: 20px;
+.padding-details .padding-description,
+.about-us-details .about-us-description {
 	color: rgb(36, 36, 36);
+	
 }
+
 
 .projects-details .projects-cta {
 	margin-top: 40px;
@@ -770,7 +776,9 @@ footer i {
 	.hero .text p.lead {
 		line-height: normal;
 	}
-	.projects-picture {
+	.projects-picture,
+	.padding-picture,
+	.about-us-picture {
 		margin-bottom: 40px;
 	}
 	.maps {
