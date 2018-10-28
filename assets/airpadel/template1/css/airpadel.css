@@ -346,11 +346,16 @@ section.bg-overlay {
 	background-color: rgba(21,22,22,0.85);
 }
 
+section.bg-blue-airpadel{
+	background-color: #339CD0;
+}
+
 section.padding {
 	padding: 100px 0;
 }
 
-section#blog {
+section#blog,
+section#about-us {
 	padding-bottom: 70px;
 }
 
@@ -422,7 +427,7 @@ section.callout h3 {
 	-webkit-flex: 0 0 65px;
 	font-size: 45px;
 	line-height: 0;
-	color: #ccc;
+	color: #bbb;
 }
 
 .list-item .desc h2 {
@@ -557,23 +562,25 @@ article.card .card-more i {
 }
 
 /*projects*/
-.projects-picture {
-	width: 250px;
+.projects-picture,
+.padding-picture,
+.about-us-picture,
+.about-us-picture {
+	height: 430px;
 	margin: 0 auto;
 }
 
-.projects-picture img {
+.projects-picture img,
+.padding-picture img,
+.about-us-picture img,
+.solidarity-picture img {
 	width: 100%;
 }
 
-/*projects*/
-.padding-picture {
-	width: 300px;
-	margin: 0 auto;
-}
-
-.padding-picture img {
-	width: 100%;
+.about-us-picture,
+.solidarity-picture{
+	padding-left: 30px;
+    padding-right: 30px;
 }
 
 .projects-details {
@@ -591,22 +598,37 @@ article.card .card-more i {
 	margin-bottom: 20px;
 	display: inline-block;
 }
+.innovation-title{
+	border: 2px solid #fff;
+	display: inline-block;
+	padding: 6px 14px;
+}
 
 .projects-details .projects-title {
 	line-height: 45px;
 }
 
-.projects-details .projects-description {
+.projects-details .projects-description,
+.padding-details .padding-description,
+.about-us-details .about-us-description,
+.solidarity-details .solidarity-description,
+.innovation-description {
 	line-height: 28px;
 	margin-top: 20px;
+	text-align: justify;
+	
+}
+
+.projects-details .projects-description{
 	color: #999;
 }
 
-.padding-details .padding-description {
-	line-height: 28px;
-	margin-top: 20px;
+.padding-details .padding-description,
+.about-us-details .about-us-description {
 	color: rgb(36, 36, 36);
+	
 }
+
 
 .projects-details .projects-cta {
 	margin-top: 40px;
@@ -636,6 +658,10 @@ article.card .card-more i {
 }
 
 /*contact*/
+.contact-us{
+	color: #fff;
+}
+
 form.contact .form-control {
 	margin-bottom: 5px;
 	height: 50px;
@@ -674,14 +700,15 @@ form.contact .btn-primary {
 	-o-border-radius: 0;
 	font-size: 14px;
 	cursor: pointer;
-	border-color: #000;
+	border-color: #fff;
 	color: #fff;
-	background-color: #000;
+	background-color:transparent;
 	border-width: 2px;
 }
 
 form.contact .btn-primary:hover {
-	background-color: transparent;
+	border-color: #fff;
+	background-color: #fff;
 	color: #000;
 }
 
@@ -770,9 +797,18 @@ footer i {
 	.hero .text p.lead {
 		line-height: normal;
 	}
-	.projects-picture {
+	.projects-picture,
+	.padding-picture,
+	.about-us-picture {
 		margin-bottom: 40px;
 	}
+
+	.about-us-picture,
+	.solidarity-picture{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
 	.maps {
 		margin-bottom: 40px;
 		width: 100%;
@@ -802,4 +838,6 @@ footer i {
 	.article-read .article-read-inner {
 		width: 80%;
 	}
+
+	
 }
