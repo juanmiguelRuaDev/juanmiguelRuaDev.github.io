@@ -19,6 +19,7 @@ description: "Primera plantilla de airpadel"
 	<link rel="stylesheet" href="assets/airpadel/template1/airpadel/dist/airpadel.css">
 	<link rel="stylesheet" href="assets/airpadel/template1/css/airpadel.css">
 	<link rel="stylesheet" href="assets/airpadel/template1/css/airpadel_chart.css">
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 	<link href="https://fonts.googleapis.com/css?family=Chivo|Comfortaa|Montserrat|Oxygen" rel="stylesheet">
 	<link rel="icon" type="img/png" href="assets/airpadel/template1/img/favicon.ico">
 </head>
@@ -80,7 +81,7 @@ description: "Primera plantilla de airpadel"
 
 	<!-- PADDING SECTION -->
 	<section class="padding bg-grey" id="features">
-		<div class="container">
+		<div class="container" data-aos="fade-up">
 			<div class="row align-items-center">
 				<div class="col-12 col-md-3 col-sm-12">
 					<div class="list-item">
@@ -134,12 +135,12 @@ description: "Primera plantilla de airpadel"
 		<div class="container">
 			<div class="row align-items-center">
 	
-				<div class="col-12 col-md-6">
+				<div class="col-12 col-md-6" data-aos="fade-right">
 					<div class="chart-wrapper" id="grip-chart"></div>
 				</div>
 	
 	
-				<div class="col-12 col-md-6">
+				<div class="col-12 col-md-6" data-aos="fade-left">
 					<div class="padding-details">
 						
 						<p class="padding-description">
@@ -173,7 +174,7 @@ description: "Primera plantilla de airpadel"
 	<section class="bg-overlay padding" id="project" data-bg="assets/airpadel/template1/img/background_player_shapes.jpg">
 		<div class="container">
 			<div class="row align-items-center">
-			<div class="col-12 col-md-6">
+			<div class="col-12 col-md-6" data-aos="fade-down-right">
 				<div class="projects-details">
 					<div class="projects-badge">
 						Producto
@@ -209,7 +210,7 @@ description: "Primera plantilla de airpadel"
 				</div>
 			</div>
 
-			<div class="col-12 col-md-6">
+			<div class="col-12 col-md-6" data-aos="flip-right">
 				<figure class="projects-picture">
 					<img src="assets/airpadel/template1/img/product_render_transparent.png" alt="AirPadel">
 				</figure>
@@ -223,14 +224,14 @@ description: "Primera plantilla de airpadel"
 	<section class="padding bg-grey" id="about-us">
 		<div class="container">
 			<h2 class="section-title">Acerca de nosotros</h2>			
-			<div class="row align-items-center">
+			<div class="row align-items-center" data-aos="zoom-in-right">
 				<div class="col-12 col-md-6">
 					<figure class="about-us-picture">
 						<img src="assets/airpadel/template1/img/about-us.jpg" alt="AirPadel">
 					</figure>
 				</div>
 
-				<div class="col-12 col-md-6">
+				<div class="col-12 col-md-6" data-aos="zoom-in-left">
 					<div class="about-us-details">
 					
 						<p class="about-us-description">
@@ -359,7 +360,7 @@ description: "Primera plantilla de airpadel"
 
 	<!--INNOVATION -->
 	<section class="bg-blue-airpadel padding" id="innovation">
-		<div class="container">
+		<div class="container" data-aos="zoom-out-up">
 			<h2 class="section-title innovation-title">Innovación</h2>
 			<p class="section-lead ">Evolución & Revolución</p>
 			<div class="section-body">
@@ -379,12 +380,12 @@ description: "Primera plantilla de airpadel"
 
 	<!--SOLIDARITY-->
 	<section class="padding bg-grey" id="solidarity">
-		<div class="container">
+		<div class="container" >
 			<h2 class="section-title">Solidarios</h2>
 			
 			<div class="row align-items-center">				
 
-				<div class="col-12 col-md-6">
+				<div class="col-12 col-md-6" data-aos="fade-up">
 					<div class="solidarity-details">
 
 						<p class="solidarity-description">
@@ -409,7 +410,7 @@ description: "Primera plantilla de airpadel"
 					</div>
 				</div>
 
-				<div class="col-12 col-md-6">
+				<div class="col-12 col-md-6" data-aos="fade-down" data-aos-duration="3000">
 					<figure class="solidarity-picture">
 						<img src="assets/airpadel/template1/img/solidarity.png" alt="AirPadel">
 					</figure>
@@ -487,6 +488,10 @@ description: "Primera plantilla de airpadel"
 	<script src="assets/airpadel/template1/js/airpadel.js"></script>
 	<script src="assets/airpadel/template1/js/d3.v3.min.js"></script>
 	<script src="assets/airpadel/template1/js/chart.js"></script>
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
 </body>
 
 </html>
