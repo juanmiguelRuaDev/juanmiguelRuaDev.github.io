@@ -346,6 +346,10 @@ section.bg-overlay {
 	background-color: rgba(21,22,22,0.85);
 }
 
+section.bg-blue-airpadel{
+	background-color: #339CD0;
+}
+
 section.padding {
 	padding: 100px 0;
 }
@@ -560,6 +564,7 @@ article.card .card-more i {
 /*projects*/
 .projects-picture,
 .padding-picture,
+.about-us-picture,
 .about-us-picture {
 	height: 430px;
 	margin: 0 auto;
@@ -567,12 +572,16 @@ article.card .card-more i {
 
 .projects-picture img,
 .padding-picture img,
-.about-us-picture img {
+.about-us-picture img,
+.solidarity-picture img {
 	width: 100%;
 }
 
-
-
+.about-us-picture,
+.solidarity-picture{
+	padding-left: 30px;
+    padding-right: 30px;
+}
 
 .projects-details {
 	color: #fff;
@@ -589,6 +598,11 @@ article.card .card-more i {
 	margin-bottom: 20px;
 	display: inline-block;
 }
+.innovation-title{
+	border: 2px solid #fff;
+	display: inline-block;
+	padding: 6px 14px;
+}
 
 .projects-details .projects-title {
 	line-height: 45px;
@@ -596,7 +610,9 @@ article.card .card-more i {
 
 .projects-details .projects-description,
 .padding-details .padding-description,
-.about-us-details .about-us-description {
+.about-us-details .about-us-description,
+.solidarity-details .solidarity-description,
+.innovation-description {
 	line-height: 28px;
 	margin-top: 20px;
 	text-align: justify;
@@ -642,6 +658,10 @@ article.card .card-more i {
 }
 
 /*contact*/
+.contact-us{
+	color: #fff;
+}
+
 form.contact .form-control {
 	margin-bottom: 5px;
 	height: 50px;
@@ -680,14 +700,15 @@ form.contact .btn-primary {
 	-o-border-radius: 0;
 	font-size: 14px;
 	cursor: pointer;
-	border-color: #000;
+	border-color: #fff;
 	color: #fff;
-	background-color: #000;
+	background-color:transparent;
 	border-width: 2px;
 }
 
 form.contact .btn-primary:hover {
-	background-color: transparent;
+	border-color: #fff;
+	background-color: #fff;
 	color: #000;
 }
 
@@ -781,6 +802,13 @@ footer i {
 	.about-us-picture {
 		margin-bottom: 40px;
 	}
+
+	.about-us-picture,
+	.solidarity-picture{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
 	.maps {
 		margin-bottom: 40px;
 		width: 100%;
@@ -810,4 +838,6 @@ footer i {
 	.article-read .article-read-inner {
 		width: 80%;
 	}
+
+	
 }
