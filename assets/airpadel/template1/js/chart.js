@@ -205,7 +205,7 @@ d3.csv('assets/airpadel/template1/grip_chart.csv',  (error, data) => {
 
   let chart = makeLineChart(data, 'humedad', {
     'CON airpadel': { column: 'variableA' },
-    'Sin airpadel': { column: 'variableB' }
+    'SIN airpadel': { column: 'variableB' }
   }, { xAxis: 'Tiempo en minutos', yAxis: 'Humedad en %' });
   chart.bind("#grip-chart");
   chart.render();
