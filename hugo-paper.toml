@@ -1,0 +1,20 @@
+baseURL = "https://juanmiguelrua.com"
+languageCode = "en-us"
+theme = "paper"
+title = "Juanmi.Rua"
+
+[params]
+  name = 'Rua'
+  bio = 'this is the bio'
+  github = 'juanmiguelRuaDev'
+  linkedin = 'juan-miguel-rua-gutierrez'
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+
+
