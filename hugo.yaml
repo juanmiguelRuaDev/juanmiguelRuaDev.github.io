@@ -140,7 +140,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "#"
+      url: "documents/CV.pdf"
       download: true
       newPage: false
     socialLinks:
@@ -199,6 +199,18 @@ params:
         - Design an maintain the **Gitlab CI/CD** pipelines templates.
         - Migrate the observability stack from **Datadog** to **Grafana Cloud** using **Grafana alloy** and **Vector**.
         
+        Besides, and taking advantage of my experience in software development, I am also involved in the projects such as: 
+        - Development of a **Golang** microservice to manage the **AWS** resources.
+        - Create the CLI application with **Python** to implement our internal "Continuous Deployment" tool with terraform.
+        - Create a AWS fuction **Golang** application to automate the on-call report. Recently migrate to Kubernetes cronJob.
+        - R+D to design the architecture of the PKI of the company.
+        - Scripting in Go, Python, Bash, or other languages
+        - Design a new strategy to implement canary releases in the company.
+
+        Other responsibilities:
+        - Integrate OKTA with AWS and configure the RBAC based on OKTA groups.
+        - Mantainance of Cloudflare CDN, WAF, and DNS.
+
     - job: "DevOps Team Lead"
       company: "Applus IDIADA"
       companyUrl: "https://www.applusidiada.com/global/en/"
