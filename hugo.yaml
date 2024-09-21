@@ -54,7 +54,7 @@ Menus:
 
 params:
   title: "Juanmi Rúa's Place"
-  description: Text about my cool site
+  description: This is the personal website of Juan Miguel Rúa Gutiérrez. Here you can find information about me, my projects, and my blog posts.
   # staticPath: ""  # The path to serve the static files from
   favicon: "/images/rua_sign.png"
 
@@ -155,14 +155,14 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/me.png"
+    image: "/images/congas.jpg"
     content: |-
       I am a Site Reliability Engineer with a passion design pattern.
-      However, my passion extends beyond technical matters; I have a deep passion for music. especially about the percussion.
+      However, my passion extends beyond technical matters; I have a deep passion for **music**, especially about the percussion.
 
     skills:
       enable: true
-      title: "Here are a few technologies I've been working with recently:"
+      title: "The technologies I have more experience with are:"
       items:
       - "AWS"
       - "Terraform"
@@ -179,79 +179,149 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-    - job: "Senior Platform Engineer"
+    - job: "Senior Platform Engineer / SRE"
       company: "Wallbox Chargers"
       companyUrl: "https://wallbox.com"
-      date: "Jan 2022 - present"
+      date: "March 2022 - present"
       featuredLink:
         enable: true
         name: "Platform engineer at Wallbox Chargers"
-        url: "https://wallbox.com"
-      content: |-
-        As a senior platform engineer, my responsibilities include overseeing the design, development, 
-        and upkeep of scalable and high-performance platforms that provide essential support for important business applications. 
-        In this position, I work with cross-functional teams to design resilient infrastructure solutions,
-        automate deployment pipelines, and guarantee the availability and efficacy of systems by implementing continuous 
-        integration and continuous delivery (CI/CD) methodologies. 
-        Furthermore, I have a crucial responsibility in mantaining several EKS clusters where are running all the Gitlab pipelines. 
-        The primary objective of my work is to stimulate creativity, enhance the resilience of systems, 
-        and provide cost efficiency that are in line with the objectives of the business.
+        url: "https://www.linkedin.com/in/juan-miguel-rua-gutierrez/details/experience"
+      content: |
+        As a **Senior Platform Engineer**, I participate in the design and development of high-performance 
+        tools that provide essential support for important business applications. With **"cost optimisation"** as our primary goal, 
+        I collaborate with cross-functional teams to design resilient infrastructure solutions, automate deployment pipelines, 
+        and ensure the availability and efficacy of systems through continuous implementation.
 
+        Main responsibilities:
+        - Mantain all the  **Kubernetes** EKS clusters.
+        - Development of all the  **Terraform** modules.
+        - Design an maintain the **Gitlab CI/CD** pipelines templates.
+        - Migrate the observability stack from **Datadog** to **Grafana Cloud** using **Grafana alloy** and **Vector**.
+        
     - job: "DevOps Team Lead"
       company: "Applus IDIADA"
-      companyUrl: "https://example.com"
-      date: "Sep 2020 - Dec 2021"
+      companyUrl: "https://www.applusidiada.com/global/en/"
+      date: "May 2019 - March 2022"
       featuredLink:
         enable: true
-        url: "https://example.com"
+        name: "DevOps team lead at Applus IDIADA"
+        url: "https://www.linkedin.com/in/juan-miguel-rua-gutierrez/details/experience"
       info:
-        enable: true
-        content: I worked as a software developer for more than one year in Amazon.
+        enable: false
       content: |
-        I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+        Infrastructure as Code (IaC), this is our main goal since we create the DevOps team almost two years ago.
 
-        - Lead backend developer for a product.
-        - Created a frontend design for a product.
+        Our team started the migration of all our infrastructure from VMWare on premise to AWS using Terraform.
 
-    - job: "Junior Software Developer"
+        Furthermore, we are evolving the deployment processes of all our applications the following: 
+        - Ansible
+        - Jenkins
+        - GitLab-ci
+        - Docker
+        - docker-compose
+        - Consul
+        - Flayway
+
+    - job: "Software Architect"
       company: "Applus IDIADA"
-      companyUrl: "https://example.com"
-      date: "Jan 2020 - Aug 2020"
+      companyUrl: "https://www.applusidiada.com/global/en/"
+      date: "October 2013 - Aug 2019"
       info:
         enable: false
       featuredLink:
         enable: true
-        url: "https://example.com"
+        name: "Sofware Architect at Applus IDIADA"
+        url: "https://www.linkedin.com/in/juan-miguel-rua-gutierrez/details/experience"
       content: |
-        I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+        I started as a software developer in the company, but I quickly moved to the architecture team
+        where I took the opportunity to have the ownership of one of the most important projects in the company: 
 
-        - Lead backend developer for a product.
-        - Created a frontend design for a product.
-
-    - job: "UI/UX Designer"
-      company: "Netflix"
-      companyUrl: "https://example.com"
-      date: "June 2017 - Nov 2019"
+        The **Barrier control system**: Here I was for the architecture definition, Design, development and deployment 
+        of a real-time aplication using **Nodejs** as server (_socket.io_), that asychronously communicate with  machine-states 
+        application deployed in several raspberryPi coded in **python3**, and rendering data in a desktop application coded in **JavaFX**.
+        
+        I had other  responsibilities such as:
+        * Design the core of the new software architecture for the  company using the following technologies:
+          - Java
+          - Spring
+          - Hibernate
+          - JSF
+          - Primefaces
+          - AOP
+          - Bootstrap
+          - CI-Jenkins
+          - Gitlab
+          - Sonar
+        
+        * Design new pipelines to improve the deployment process of the company applications:
+          - Migrate from Subversion to Git
+          - Redefine the CI/CD process using Jenkins
+          - Design a new architecture to migrate the monolithic applications to service oriented architecture.
+          - Introduction of Docker and Docker-swarm in the company.
+          - Consul
+          - Flayway
+        
+    - job: "Software Developer"
+      company: "ViewNext"
+      companyUrl: "https://www.viewnext.com"
+      date: "February 2012 - October 2013"
+      info:
+        enable: false
       featuredLink:
         enable: true
-        url: "https://example.com"
+        name: "Sofware Developer at ViewNext"
+        url: "https://www.linkedin.com/in/juan-miguel-rua-gutierrez/details/experience"
       content: |
-        I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+        Maintance and new developments in ROCA web/intranet and LAUFEN.
 
-        - Lead backend developer for a product.
-        - Created a frontend design for a product.
-
-    - job: "Product Designer"
-      company: "Google"
-      companyUrl: "https://example.com"
-      date: "Feb 2016 - Mar 2017"
-      content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+        www.roca.com
+        www.laufen.com
 
 
+        Using in back-end:JEE, Spring Framework, IBM Web Content Manager, Hiberante, Oracle, Maven3.
+
+        Using in Front-end: Dojo, Jquery, Ajax, HTML5, CSS3
+
+        Efficient Search Algorithms using Apache Lucene and Hibernate search.
+
+    - job: "Senior Software Developer"
+      company: "Seidor OpenTrends"
+      companyUrl: "https://www.seidor.com/"
+      date: "September 2011 - February 2012"
+      info:
+        enable: false
+      featuredLink:
+        enable: true
+        name: "Senior Sofware Developer at ViewNext"
+        url: "https://www.linkedin.com/in/juan-miguel-rua-gutierrez/details/experience"
+      content: |
+        "SIC" upgrading to version 4
+
+        Java/Swing application deployed in touch device aimed to communicate the Barcelona Bus's Driver with TMB Central. 
+        Designed with a Event listener pattern and implemented through Java Swing; Running on Linux operative system.
+
+    - job: "Junio rSoftware Developer"
+      company: "ViewNext"
+      companyUrl: "https://www.viewnext.com"
+      date: "September 2010 - August 2011"
+      info:
+        enable: false
+      featuredLink:
+        enable: true
+        name: "Sofware Developer at ViewNext"
+        url: "https://www.linkedin.com/in/juan-miguel-rua-gutierrez/details/experience"
+      content: |
+        TIP (Applications of portal web "CaixaBank")
+
+        * Owner framework based on Spring web-flow framework with Struts and Velocity template.
+        * Oracle data base and persintence with hibernate and JDBC Connections
+        * EJB technology to implements banking transactions.
+        * JavaScript, AJAX and en encryption algorithms (RSA) in LOLOPO project (Login Linea Oberta Portal)
 
   # Achievements
   achievements:
-    enable: true
+    enable: false
     # title: "Custom Name"
     items:
     - title: Google kickstart runner
@@ -272,54 +342,54 @@ params:
       url: https://example.com
 
   # projects
-  projects:
-    enable: true
-    # title: "Custom Name"
-    items:
-    - title: Hugo Profile
-      content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
-      image: /images/projects/profile.png
-      featured:
-        name: Demo
-        link: https://hugo-profile.netlify.app
-      badges:
-      - "Hugo"
-      - "Bootstrap"
-      - "Javascript"
-      links:
-      - icon: fa fa-envelope
-        url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
-      - icon: fab fa-github
-        url: https://github.com/gurusabarish/hugo-profile
-      - icon: fab fa-twitter
-        url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+  # projects:
+  #   enable: true
+  #   # title: "Custom Name"
+  #   items:
+  #   - title: Hugo Profile
+  #     content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
+  #     image: /images/projects/profile.png
+  #     featured:
+  #       name: Demo
+  #       link: https://hugo-profile.netlify.app
+  #     badges:
+  #     - "Hugo"
+  #     - "Bootstrap"
+  #     - "Javascript"
+  #     links:
+  #     - icon: fa fa-envelope
+  #       url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+  #     - icon: fab fa-github
+  #       url: https://github.com/gurusabarish/hugo-profile
+  #     - icon: fab fa-twitter
+  #       url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
 
-    - title: Image Converter
-      content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
-      image: /images/projects/converter.jpg
-      featured:
-        name: Demo
-        link: https://django-converter.herokuapp.com
-      badges:
-      - "Django"
-      - "Bootstrap"
-      links:
-      - icon: fab fa-github
-        url: https://github.com/gurusabarish/converter
+  #   - title: Image Converter
+  #     content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
+  #     image: /images/projects/converter.jpg
+  #     featured:
+  #       name: Demo
+  #       link: https://django-converter.herokuapp.com
+  #     badges:
+  #     - "Django"
+  #     - "Bootstrap"
+  #     links:
+  #     - icon: fab fa-github
+  #       url: https://github.com/gurusabarish/converter
 
-    - title: Hugo Profile V2
-      content: A clean and simple Hugo template for personal portfolio and blog.
-      image: /images/projects/profile2.jpg
-      featured:
-        name: Demo V2
-        link: https://hugo-profile-2.netlify.app
-      badges:
-      - "Hugo"
-      - "Bootstrap"
-      - "Javascript"
-      links:
-      - icon: fab fa-github
-        url: https://github.com/gurusabarish/HugoProfileV2
+  #   - title: Hugo Profile V2
+  #     content: A clean and simple Hugo template for personal portfolio and blog.
+  #     image: /images/projects/profile2.jpg
+  #     featured:
+  #       name: Demo V2
+  #       link: https://hugo-profile-2.netlify.app
+  #     badges:
+  #     - "Hugo"
+  #     - "Bootstrap"
+  #     - "Javascript"
+  #     links:
+  #     - icon: fab fa-github
+  #       url: https://github.com/gurusabarish/HugoProfileV2
 
   #Contact
   contact:
