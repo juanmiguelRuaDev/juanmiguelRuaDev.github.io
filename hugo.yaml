@@ -158,8 +158,13 @@ params:
     title: "About Me"
     image: "/images/congas.jpg"
     content: |-
-      I am a Site Reliability Engineer with a passion design pattern.
-      However, my passion extends beyond technical matters; I have a deep passion for **music**, especially about the percussion.
+      Even though I am really passionate about **software infrastructure**, **cloud computing**,
+      and **software engineering** in general, my passions extend beyond technical matters; 
+      I have a deep love for **music**, I am a percussionist, and I love to play the congas and the cajón. 
+      
+      I also like exercising, such as  **hiking**, **running**, and **swimming**. I try to enjoy nature as much as possible.
+
+      But coming back to the technical side, I am always looking for new challenges and opportunities to learn new things.
 
     skills:
       enable: true
@@ -169,9 +174,14 @@ params:
       - "Terraform"
       - "Kubernetes"
       - "Gitlab CI/CD"
-      - "Observability"
+      - "Jenkins"
+      - "Grafana Cloud"
+      - "Datadog"
+      - "Docker"
       - "Golang"
       - "Python"
+      - "Java"
+      - "Nodejs"
       - "Bash"
       - "Rust (Learning)"
 
