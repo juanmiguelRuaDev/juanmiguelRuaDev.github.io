@@ -14,7 +14,7 @@ outputs:
 
 # Paginate: 3
 pagination:
-  pagerSize: 10
+  pagerSize: 3 
 enableRobotsTXT: true
 # disqusShortname: your-disqus-shortname
 # googleAnalytics: G-MEASUREMENT_ID
@@ -29,7 +29,7 @@ Menus:
   - identifier: blog
     name: Blog
     title: Blog posts
-    url: /blogs
+    url: /posts
     weight: 1
   # - identifier: gallery
   #   name: Gallery
@@ -432,7 +432,7 @@ params:
 
   footer:
     recentPosts:
-      path: "blogs"
+      path: "/posts"
       count: 3
       title: Recent Posts
       enable: true
