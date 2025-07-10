@@ -1,6 +1,6 @@
 ---
-title: "Rescathena: First step"
-date: 2025-07-10T18:00:21
+title: "Rescathena First step"
+date: 2025-07-10T18:00:21+00:00
 draft: false
 author: "Juan Miguel Rúa"
 tags:
@@ -11,6 +11,8 @@ tags:
 description: "This entry is the first article to follow the growing of my personal project"
 toc:
 ---
+
+## First step: The idea
 
  For quite some time, I have wanted to dedicate time to creating a personal project leveraging my knowledge in technology, and now I have finally found the motivation to at least dive into not only conceptualizing the idea but also carrying out the implementation with everything it entails.
 
